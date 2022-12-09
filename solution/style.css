@@ -25,6 +25,12 @@ h1 {
     color: white;
 }
 
+.red {
+    color: red;
+    background: none;
+}
+
+
 h2 {
     text-align: center;
     color: white;
@@ -79,9 +85,4 @@ textarea{
     color: aliceblue;
     font-weight: 700;
     cursor: pointer;
-}
-
-.red {
-    color: red;
-    background: none;
 }
