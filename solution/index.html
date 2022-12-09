@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html Lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+    <h1>NIK<mark class="red">FILIK</mark></h1>
+    <h2>Thank you for signing up at Nikfilik. Tell us more about your self ^^ </h2>
+
+    <form action="" method="get">
+  
+      <div class="inputs-div">
+        <label for="name">Name</label><br>
+        <input class="name" type="text" name="name" id="name" placeholder="Enter your name">
+      </div>
+
+      <div class="inputs-div">
+        <label for="age">Age</label><br>
+        <input class="number" type="number" name="age" id="age" min="0" placeholder="Enter your age">
+      </div>
+
+      <div class="inputs-div">
+        <label for="email">E-Mail</label><br>
+        <input class="email" type="email" name="email" id="email" placeholder="Enter your email">
+      </div>
+
+      <div class="inputs-div">
+        <label for="content">Content type</label><br>
+        <select class="select" name="content" id="content">
+            <option value="">Select</option>
+            <option value="Movie">Movie</option>
+            <option value="Series">Series</option>
+        </select>
+      </div>
+
+      <div class="inputs-div">
+        <label for="genres">Genre</label><br>
+        <div class="genre-div">
+
+          <input type="checkbox" name="genre" id="comedy" checked/>
+          <label for="comedy">Comedy</label><br>
+
+          <input class="checkbox" type="checkbox" name="genre" id="action" />
+          <label for="action">Action</label><br>
+
+          <input type="checkbox" name="genre" id="romance" />
+          <label for="romance">Romance</label>
+
+        </div>
+      </div>
+
+      <div class="inputs-div">
+        <label for="gender">Gender</label><br>
+        <div class="gender-div">
+
+            <input class="radio" type="radio" name="gender" id="male" />
+            <label for="male">Male</label><br>
+
+            <input class="radio" type="radio" name="gender" id="female" />
+            <label for="female">Female</label>
+
+        </div>
+      </div>
+
+      <div class="inputs-div">
+        <label for="feedback">Feed back</label><br>
+        <textarea name="feedback" id="feedback" rows="5"></textarea>  
+      </div>
+
+      <div class="btn">
+        <input type="submit" value="Submit">
+      </div>
+
+    </div>
+  </form> 
+  </div>   
+  </body>
+</html>

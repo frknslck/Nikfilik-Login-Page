@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    background-color: rgba(0,0, 0, 0.4);
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Sigmar One', cursive;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+form {
+    background-color: rgba(0,0, 0, 0.8);
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    width: fit-content;
+}
+
+input[type="text"],[type="number"],[type="email"]{
+    height: 40px;
+    width: 300px;
+    }
+
+select[class=select]{
+    height: 40px;
+    width: 300px;
+    }  
+
+textarea{
+    width: 300px;
+}
+
+.inputs-div {
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn input {
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 91%, 63%);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btn input:hover {
+    background-color: hsl(0, 100%, 50%);
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.red {
+    color: red;
+    background: none;
+}
